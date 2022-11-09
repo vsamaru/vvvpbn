@@ -1,8 +1,6 @@
 name: Automerge PR
 on:
-  pull_request_target:
-    paths:
-      - "zones/*.yaml"
+  push:
 
 jobs:
   check:
